@@ -1,0 +1,76 @@
+body {
+  background: url(images/princess-cat.jpg);
+  color: #7d7d7d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.2em;
+}
+
+h1 {
+    color: #e874cd;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: 'Tangerine', cursive;
+}
+
+h2 {
+  color: #eca7d5;
+  font-family: 'Patrick Hand', cursive;
+}
+
+h3 {
+  color: #946a86;
+  font-family: 'Parisienne', cursive;
+}
+
+.container {
+    width: 600px;
+    margin: 10px auto;
+}
+
+.card-center {
+    background: rgba(241, 231, 231, 0.99);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.1em;
+
+}
+
+.social-media:hover {
+  opacity: 0.7;
+  font-weight: 300;
+  font-size: 1.7em;
+  transition-duration: 0.5s;
+}
+
+
+@media (max-width: 960px) {
+   .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
